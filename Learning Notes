@@ -1,0 +1,8 @@
+## Learning Notes
+
+- Added javaFX as dependencies in Maven
+- Add module-info.java file to link the required modules
+- Add (requires transitive javafx.graphics;) in the module-info as this was causing failure to load
+- Change Run configuration and pointer the application.main to the correct location under (Main Class)
+
+- module reflection issues - added to module (opens application to javafx.fxml)
